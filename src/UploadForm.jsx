@@ -17,7 +17,7 @@ const UploadForm = () => {
   };
 
   const toggleOpen = () => {
-    setIsOpen((prev) => !prev); // Toggle state on click
+    setIsOpen((prev) => !prev); 
   }
 
   const handleTextChange = (event) => {

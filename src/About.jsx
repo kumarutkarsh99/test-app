@@ -70,7 +70,7 @@ const About = () => {
 
         <div className="card" onClick={() => window.open("https://www.linkedin.com/in/soham-jain-241579245/")}>
           <div className="thumbnail">
-            <img src="/pic5.jpg" className="thumbnail-img" />
+            <img src="/pic6.jpg" className="thumbnail-img" />
           </div>
           <div className="card-body">
                 <h4>Rajat Mahore</h4>

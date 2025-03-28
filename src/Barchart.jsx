@@ -15,10 +15,10 @@ const Barchart = () => {
       let biasSentences = [];
 
       result.results.forEach((r) => {
-        if (r.label === "BIAS") {
+        if (r.biased) {
           biasCount++;
           biasSentences.push(r.sentence);
-        } else if (r.label === "NEUTRAL") {
+        } else {
           neutralCount++;
         }
       });
@@ -41,8 +41,8 @@ const Barchart = () => {
       <h3 className="percent text-sm my-4 pt-2">Biased Percentage : {biasedPercentage}%</h3>
 
       {data.length > 0 && (
-        <ResponsiveContainer className="chart-container">
-          <BarChart data={data} >
+        <ResponsiveContainer className="chart-container" width="100%" height={300}>
+          <BarChart data={data}>
             <XAxis dataKey="category" />
             <YAxis />
             <Tooltip />

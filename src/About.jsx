@@ -47,6 +47,36 @@ const About = () => {
                 <h6>Machine Learning Engineer</h6>
           </div>
         </div>
+
+        <div className="card" onClick={() => window.open("https://www.linkedin.com/in/soham-jain-241579245/")}>
+          <div className="thumbnail">
+            <img src="/pic4.jpg" className="thumbnail-img" />
+          </div>
+          <div className="card-body">
+                <h4>Anshul</h4>
+                <h6>Machine Learning Engineer</h6>
+          </div>
+        </div>
+
+        <div className="card" onClick={() => window.open("https://www.linkedin.com/in/piyush-toraskar-1a9092290/")}>
+          <div className="thumbnail">
+            <img src="/pic5.jpg" className="thumbnail-img" />
+          </div>
+          <div className="card-body">
+                <h4>Piyush Toraskar</h4>
+                <h6>Machine Learning Engineer</h6>
+          </div>
+        </div>
+
+        <div className="card" onClick={() => window.open("https://www.linkedin.com/in/soham-jain-241579245/")}>
+          <div className="thumbnail">
+            <img src="/pic5.jpg" className="thumbnail-img" />
+          </div>
+          <div className="card-body">
+                <h4>Rajat Mahore</h4>
+                <h6>Machine Learning Engineer</h6>
+          </div>
+        </div>
         
       </div>
     </div>

@@ -57,7 +57,7 @@ const UploadForm = () => {
               rows="3"
               value={textValue}
               onChange={handleTextChange}
-              placeholder="Enter new statement (MAXIMUM STATEMENTS ALLOWED DUE TO RAM CONSTRAINTS: 2)"
+              placeholder="Enter text"
             ></textarea>
           </div>
           <button type="submit" className="btn btn-primary w-100" disabled={isSubmitting}>

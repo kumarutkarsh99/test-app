@@ -54,7 +54,7 @@ const About = () => {
           </div>
           <div className="card-body">
                 <h4>Anshul</h4>
-                <h6>Machine Learning Engineer</h6>
+                <h6>Web Developer</h6>
           </div>
         </div>
 
